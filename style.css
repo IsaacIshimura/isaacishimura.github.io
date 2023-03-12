@@ -1,0 +1,60 @@
+.myphoto{
+    border-radius: 200px;
+    box-shadow: 0 0 7px #666;
+    margin-top: 15px;
+    
+}
+
+.leftMenu{
+    background: #f0f0f0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 360px;
+    float: left;
+    border-right: 1px#666;
+   
+    
+    
+}
+
+.leftText{
+    color: #666666;
+    
+}
+
+main {
+    padding-top: 30px;
+    padding-left: 80px;
+    margin-right: 200px;
+    margin-left: 450px;
+    display: block;
+    color: #666666;
+    background: #f0f0f0;
+    opacity: 0.95;
+    padding-bottom: 20px;
+   }
+
+.headText {
+    color: #cf7d32;
+}
+
+.titel {
+    color: #cf7d32;
+}
+
+hr {
+    border: 2px solid #bfbebe;
+}
+
+body {
+            background-image: url(./background.jpeg);
+            background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+}
+
+
+
+
