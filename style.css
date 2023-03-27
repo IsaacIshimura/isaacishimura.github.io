@@ -63,6 +63,7 @@ span {
 
 .btn:hover {
     background-color: #7e6edb52;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -120,17 +121,20 @@ span {
 .bottom:hover {
     background-color: #7e6edb52;;
     box-shadow: 0 0 30px #b5aeda;
+    cursor: pointer;
 }
 
 .project-text:hover {
     background-color: #7e6edb52;
     box-shadow: 0 0 30px #b5aeda;
+    cursor: pointer;
 }
 
 .skills:hover {
     background-color: #7e6edb52;
     box-shadow: 0 0 30px #b5aeda;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .section-anima {
@@ -219,11 +223,13 @@ span {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 1rem;
     border: 1px solid #7f6edb;
+    padding: 1rem;
+    gap: 0.5rem;
 }
 .skills-title {
     order: 1;
+    padding-top: 1rem;
 }
 
 .skills {
