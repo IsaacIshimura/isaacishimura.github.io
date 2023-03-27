@@ -1,164 +1,150 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Олег Мерзляков - персональный сайт</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OLEG MERZLIAKOV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Click me!
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#experience">#experience</a></li>
+          <li><a class="dropdown-item" href="#about">#about_me</a></li>
+          <li><a class="dropdown-item" href="#contacts">#contacts</a></li>
+        </ul>
+      </div>
     <header>
-        <aside class="leftMenu">
-            <img src="./myphoto.jpg"
-            decoding="async"
-            width="360"
-            height="360"
-            alt="myphoto"
-            class="myphoto">
-
-            <div class="leftText">
-                <p>ПРОФЕССИОНАЛЬНЫЕ НАВЫКИ</p>
+      <div class="description">
+        <h2>
+            Hello, everyone! I'm Oleg Merzliakov and I'm a software developer at
+            Elbrus BootCamp.
+        </h2>
+      </div>
+      <div class="mainphoto">
+          <img src="./photo_circle.png" alt="myphoto" class="myphoto" />
+      </div>
+      <div class="description">
+        <h2>
+            Here you can find some information about me, my job and my life.
+        </h2>
+      </div>
+    </header>
+    <section class="links-box">
+      <div class="links">
+        <div><a href="#experience" class="bottom">#experience</a></div>
+        <div><a href="#about" class="bottom">#about_me</a></div>
+        <div><a href="#contacts" class="bottom">#contacts</a></div>
+      </div>
+    </section>
+    <section class="section-anima"  id="experience">
+        <div class="anima">
+            <div class="bottom_animation">
+              <div class="list-1"></div>
+              <div class="list-2"></div>
+              <div class="list-3"></div>
+            </div>
+          </div>
+    </section>
+    <section class="experience-section">
+        <div class="project-text">
+            <div class="icon-box">
+                <img src="./html_icon.png" class="icon" alt="icon"/>
+            </div>
+          <div>
+            <p class="work-text">I can use all the necessary layout tools in HTML5 and CSS. 
+                From simple one-pagers to full-fledged online stores.</p>
+          </div>
+        </div>
+        <div class="project-text">
+            <div class="icon-box">
+                <img src="./js_icon.png" class="icon" alt="icon"/>
+            </div>
+          <div>
+            <p class="work-text">I can do a lot: from a simple web application to a browser-based 3D game.</p>
+          </div>
+        </div>
+        <div class="project-text">
+            <div class="icon-box">
+                <img src="./react_icon.png" class="icon" alt="icon"/>
+            </div>
+          <div>
+            <p class="work-text">I've been working on several mobile apps using Angular and Redux.</p>
+          </div>
+        </div>
+    </section>
+    <div class="about-title" id="about">
+        <h2>About me</h2>
+    </div>
+    <section class="about-section">
+            <div class="about-text">
+                <p>Education</p>
                 <ul>
-                    <li>Создание креативных концепций</li>
-                    <li>Работа с большими объёмами данных</li>
-                    <li>Работа с лидерами мнений</li>
-                    <li>Менеджмент отдела медиабаинга</li>
-                    <li>Стратегическое планирование РК</li>
-                    <li>MS Excel</li>
-                    <li>MS Word</li>
-                    <li>Hype Auditor</li>
-                    <li>TrendHero</li>
-                    <li>Adobe Premiere</li>
-                    <li>HTML-вёрстка</li>
-                </ul>
-                <p>ОБРАЗОВАНИЕ</p>
-                <ul>
-                    <li>Государственный университет управления - Реклама и связи с общественностью. Бакалавр (2018г)</li>
-                    <li>Московский Политех - Реклама и связи с общественностью в медиаиндустрии. Магистр (2020г)</li>
-                    <li>Elbrus BootCamp (2023г)</li>
-                </ul>
-                <p>КОНТАКТЫ</p>
-                <ul>
-                    <li>T: +995 591 06 85 51</li>
-                    <li>E: enso4893@gmail.com</li>
-                    <li>Facebook: <a href="https://www.facebook.com/IsaacSaenko">@IsaacSaenko</a></li>
-                    <li>Telegram: <a href="https://t.me/MrBroxell">@MrBroxell</a></li>
-                    <li>Instagram: <a href="https://www.instagram.com/isaac_ishimura/">@isaac_ishimura</a></li>
+                    <li class="about-list">2020: Moscow Polytechnic University, Master's degree;</li>
+                    <li class="about-list">2018: State University of Management, Moscow, Bachelor's degree;</li>
                 </ul>
             </div>
-        </aside>
-    </header>
-    <main>
-        
-        <div><h1 class="titel">ОЛЕГ МЕРЗЛЯКОВ</h1></div>
-        <article>
-            <h2 class="titel">О СЕБЕ</h2>
-            <section>
-                <div>
-                    
+            <div class="about-text2">
+                <div class="skills-title"><p>Skills</p></div>
+                <div class="skills"><p>html</p></div>
+                <div class="skills"><p>css</p></div>
+                <div class="skills"><p>JavaScript</p></div>
+                <div class="skills"><p>Node.js</p></div>
+                <div class="skills"><p>React</p></div>
+                <div class="skills"><p>TypeScript</p></div>
+            </div>
+            <div class="about-text3">
+                    <p>Experience</p>
                     <ul>
-                        <li><strong>Дата рождения:</strong> 19.08.1996 (26 лет)</li>
-                        <li><strong>Семейное положение:</strong> женат, детей нет.</li>
-                        <li><strong>Личные качества:</strong> стрессоустойчивый, обучаемый, умею работать в команде и руководить коллективом, пунктуальный, всегда стремлюсь к систематизации рабочих процессов.</li>
-                        <li><strong>Опыт работы:</strong> 6 лет</li>
+                        <li class="about-list">2023mar: Elbrus BootCamp // Middle+ Developer;</li>
+                        <li class="about-list">2020oct-2023mar: OMD MD // Middle Project Manager;</li>
+                        <li class="about-list">2017may-2020oct: AMR // Project Manager;</li>
                     </ul>
-                    <hr>
-                </div>
-            </section>
-            <section>
-                    <div>
-                        <h3 class="titel">ОПЫТ РАБОТЫ</h3>
-                    </div>
-                    <div>
-                        <p>ДИРЕКТОР ПО РАЗВИТИЮ БИЗНЕСА</p>
-                        <p><em>ООО "АМР"| Октябрь 2021 - настоящее время</em></p>
-                    </div>
-                    <div>
-                        <p>Обязанности:</p>
-                        <ul>
-                            <li>координация поиска и подключения новых блогеров,</li>
-                            <li>координация работы агентов влияния,</li>
-                            <li>контроль выполнения KPI,</li>
-                            <li>обучение новых сотрудников и контроль за их работой,</li>
-                            <li>координация работы account-отдела</li>
-                            <li>комуникация с ключевыми клиентами,</li>
-                            <li>подключение новых инструментов продвижения,</li>
-                            <li>разработка стратегий продвижения,</li>
-                            <li>анализ маркетинговой деятельности клиентов и их конкурентов,</li>
-                            <li>подключение новых клиентов.</li>
-                        </ul>
-                        <p>Достижения:</p>
-                        <ul>
-                            <li>более 6 введённых в работу новых инструментов продвижения клиентов компании,</li>
-                            <li>около 28 реализованных рекламных кампаний,</li>
-                            <li>увеличение оборотов компании за годовой отчётный период на 34%,</li>
-                            <li>увеличение количества повторных обращений за услугами от клиентов на 25%.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>PROJECT-MANAGER</p>
-                        <p><em>OMD MD | Апрель 2021 - октябрь 2021</em></p>
-                    </div>
-                    <div>
-                        <p>Обязанности:</p>
-                        <ul>
-                            <li>поиска и подключения новых блогеров,</li>
-                            <li>работа с селебрити,</li>
-                            <li>формирование медиапланов,</li>
-                            <li>контроль выполнения KPI по проектам,</li>
-                            <li>комуникация с ключевыми клиентами,</li>
-                            <li>сбор, аналитика и презентация отчётности по проектам перед командами клиентов.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>Достижения:</p>
-                        <ul>
-                            <li>реализовано 2 большие Digital-кампании в рамках работы над проектом с техническим брендом,</li>
-                            <li>реализована поддержка 4-х новых продуктов в Digital-среде, а также скорректирован tone of voice по отношению к ним среди интернет- аудитории,</li>
-                            <li>сформировано более 15 медиапланов, запущенных позже в работу,</li>
-                            <li>выпущено более 150 публикаций с блогерами и селебрити.</li>
-                        </ul>
-                    </div>
-            </section>
-            <section>
-                    <div>
-                        <p>РУКОВОДИТЕЛЬ ОТДЕЛА МЕДИАБАИНГА В ИНТЕРНЕТ-РЕКЛАМЕ</p>
-                        <p><em>ООО "АМР" | Февраль 2019 - апрель 2021</em></p>
-                    </div>
-                    <div>
-                        <p>Обязанности:</p>
-                        <ul>
-                            <li>координация рекламных и PR проектов с блогерами,</li>
-                            <li>поиск и подключение новых блогеров,</li>
-                            <li>координация работы агентов влияния,</li>
-                            <li>контроль выполнения KPI,</li>
-                            <li>обучение новых сотрудников и контроль за их работой.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>Достижения:</p>
-                        <ul>
-                            <li>более 500 успешно реализованных рекламных проектов с участием лидеров мнений на YouTube и в Instagram,</li>
-                            <li>построенный с нуля и функционирующий отдел по работе с блогерами,</li>
-                            <li>успешное проведение масштабных рекламных кампаний в telegram и twitch.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>МЕНЕДЖЕР ПО РАБОТЕ С БЛОГЕРАМИ</p>
-                        <p><em>ООО "АМР"| Май 2017 - Февраль 2019</em></p>
-                    </div>
-                    <div>
-                        <p>Обязанности:</p>
-                        <p>Координация рекламных и PR проектов с блогерами, поиск и подключение новых блогеров, координация работы агентов влияния, контроль выполнения KPI.</p>
-                    </div>
-                    <div>
-                        <p>Достижения:</p>
-                        <p>Более 100 успешно реализованных рекламных проектов с участием лидеров мнений.</p>
-                    </div>
-            </section>
-        </article>
-    </main>
-</body>
+            </div>
+    </section>
+    <div class="contscts-title">
+        <h2>Contacts</h2>
+    </div>
+    <section class="contacts" id="contacts">
+            <div class="contact-icon">
+                <a href="https://github.com/IsaacIshimura"><img src="./git-icon.png" class="icon-soc" alt="icon"></a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/oleg-merzliakov-443112115/"><img src="./linkedin-icon.png" class="icon-soc" alt="icon"></a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://www.instagram.com/isaac_ishimura/"><img src="./inst-icon.png" class="icon-soc" alt="icon"></a>
+            </div>
+    </section>
+    <footer>
+        <div><span>© Copyright 2023. Made by Oleg Merzliakov</span></div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
